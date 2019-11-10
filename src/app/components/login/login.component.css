@@ -1,0 +1,22 @@
+.al-ctr{
+    text-align: center;
+}
+
+.spcedwn{
+    margin-top: 5em;
+}
+
+.spcedwnd{
+    margin-top: 2em;
+}
+
+.lss{
+    margin: 0 auto; 
+    width: 50%;
+}
+
+.color{
+    background-color: cadetblue;
+    border-radius: 30px;
+    width: 20%;
+}

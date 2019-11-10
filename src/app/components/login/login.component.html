@@ -1,0 +1,37 @@
+<div class="container color"> 
+
+    <div class="al-ctr">
+        <h1>LOGIN PAGE</h1>
+    </div>
+
+
+
+    <div class="al-ctr spcedwn">
+        <h3>USER</h3>
+    </div>
+
+    <div class="row lss">
+        <input type="text" class="form-control" placeholder="Username" [(ngModel)]="user"> 
+    </div>
+
+    <div class="al-ctr spcedwnd">
+        <h3>Password</h3>
+    </div>
+    
+    <div class="row lss">
+        <input type="password" class="form-control" placeholder="Password" [(ngModel)]="password">
+    </div>
+
+    <div class="al-ctr spcedwnd">
+        <button type="button" class="btn btn-dark" (click)="login()">Login</button>
+    </div>
+  
+    <div class="spcedwnd" *ngIf="!pass">
+        <h4 style="color: red;">wrong password or username. Please Try Again</h4>
+    </div>
+
+
+</div>
+
+
+
